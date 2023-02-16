@@ -4,6 +4,7 @@ time, a physical hardware "Hexa" robot mimics (part of) the turtle's behavior. A
 * [turtle_painter](https://youtu.be/S0M757739Hs)
 * [hexar_driver](https://youtu.be/7ao2tx5IoJk) (the laptop screen shows the turtle_painter progress)
 
+<img src="https://github.com/willward20/Robotics-1/blob/main/Gallery/turtlesim_example.png" width="300">   <img src="https://github.com/willward20/Robotics-1/blob/main/Gallery/Project3_Hexar.png" width="600">
 
 ## Summary
 This project contains two ROS 2 packages used to control the virtual turtle in the turtlesim_node and a real "hexar" robot with 
