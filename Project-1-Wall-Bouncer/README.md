@@ -1,6 +1,6 @@
-# Project - Wall Bouncing Robot
+# Project 1: Wall Bouncer
 
-<img align="left" src="https://github.com/willward20/Robotics-1/blob/main/Gallery/ArucoFollower.PNG" width="300"/>
+<img align="right" src="https://github.com/willward20/Robotics-1/blob/main/Gallery/ArucoFollower.PNG" width="300"/>
 
 ## Summary
 The goal of this project is to design and build a robot that mimics popular Roombas (autonomous robots that vacuum the floor while driving through rooms and avoiding obstacles, like walls). The control program for this robot `wall_bouncer.py`, was written in Python using the gpiozero library. A Raspberry Pi is the central brain of the robot that runs the Python program. The robot has two DC motors that power the back wheels and are controlled by a Pololu Dual Driver Board connected to the Raspberry Pi. The driver board controls each wheel's Pulse Width Modulation (PWM) and direction to drive the robot forward and backward, turn left and right, and change the speed of each wheel.
