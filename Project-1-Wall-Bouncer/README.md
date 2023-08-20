@@ -1,10 +1,13 @@
 # Project - Wall Bouncing Robot
 
+<img src="https://github.com/willward20/Robotics-1/blob/main/Gallery/ArucoFollower.PNG" width="350"/>
+
 ## Summary
 The goal of this project is to design and build a robot that mimics popular Roombas (autonomous robots that vacuum the floor while driving through rooms and avoiding obstacles, like walls). The control program for this robot `wall_bouncer.py`, was written in Python using the gpiozero library. A Raspberry Pi is the central brain of the robot that runs the Python program. The robot has two DC motors that power the back wheels and are controlled by a Pololu Dual Driver Board connected to the Raspberry Pi. The driver board controls each wheel's Pulse Width Modulation (PWM) and direction to drive the robot forward and backward, turn left and right, and change the speed of each wheel.
 
 Two ultrasonic sensors are attached on top of the robot to act as its eyes. Each sensor is constantly sending out ultrasonic frequency sound waves and receiving their transmitted signal. Based on the time it takes for the signal to return, the sensors determine the distance between the robot and an obstacle. The Raspberry Pi reads signals from the ultrasonic sensor, and if an obstacle is closer than a predeterimined distance to the robot, the program forces the robot to turn left until no objects are in its way. This section of the robot/program still needs some work. If the robot approaches an object at a small enough angle, the ultrasonic signals won't be transmitted back to the sensor, and the robot will run into the wall (see the wall bouncer video files). 
 
+**Demonstration:** [YouTube video](https://www.youtube.com/watch?v=EKU1mnYIODc)
 
 ### Material List
 * Raspberry Pi 3 Model B+: [CanaKit](https://www.canakit.com/raspberry-pi-3-model-b-plus-starter-kit.html)
