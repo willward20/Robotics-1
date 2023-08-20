@@ -1,4 +1,4 @@
-# Project - ROS2 Managed Robots
+# Project 3: ROS 2 Painter
 UCA Robotics 1 Final Project. In this project, we control a simulated turtle bot to write **UCA** on a simulation canvas. In the mean 
 time, a physical hardware "Hexa" robot mimics (part of) the turtle's behavior. All the tasks are managed by ROS2. 
 
